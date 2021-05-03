@@ -1,0 +1,103 @@
+﻿{
+  "contentType": "application/vnd.microsoft.card.adaptive",
+  "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.1",
+    "body": [
+      {
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "width": "auto",
+            "items": [
+              {
+                "type": "Image",
+                "url": "https://botdepot.blob.core.windows.net/imagenes-sally/Logicalis_2019_CMYK_REV.png",
+                "size": "Medium"
+              }
+            ],
+            "verticalContentAlignment": "Center"
+          },
+          {
+            "type": "Column",
+            "width": "stretch",
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "$(whereVirtual)",
+                "horizontalAlignment": "Center",
+                "color": "Good",
+                "size": "Medium"
+              }
+            ],
+            "style": "default",
+            "verticalContentAlignment": "Center"
+          }
+        ]
+      },
+      {
+        "type": "ColumnSet",
+        "spacing": "Medium",
+        "separator": true,
+        "columns": [
+          {
+            "type": "Column",
+            "width": "auto",
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "Titulo:",
+                "spacing": "Small"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Cuerpo:",
+                "spacing": "Small"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Dia:",
+                "spacing": "Small"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Horario:",
+                "spacing": "Small"
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": "auto",
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "$(subject)",
+                "spacing": "Small",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "$(body)",
+                "spacing": "Small",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "$(date)",
+                "spacing": "Small"
+              },
+              {
+                "type": "TextBlock",
+                "text": "$(hours)",
+                "spacing": "Small"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "contentType": "application/vnd.microsoft.card.adaptive",
+  "content": {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "lang": "es",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "$(message)",
+        "wrap": true,
+        "weight": "Bolder"
+      },
+      {
+        "type": "ActionSet",
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "Otorgar permisos",
+            "url": "$(link)"
+          }
+        ],
+        "horizontalAlignment": "Center",
+        "height": "stretch",
+        "spacing": "Small"
+      }
+    ]
+  }
+}

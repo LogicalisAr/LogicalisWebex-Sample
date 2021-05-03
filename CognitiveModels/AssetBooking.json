@@ -1,0 +1,223 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Bienvenido",
+      "features": []
+    },
+    {
+      "name": "CrearReserva",
+      "features": []
+    },
+    {
+      "name": "CrearReservaVirtual",
+      "features": []
+    },
+    {
+      "name": "Despedida",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "utterances": [
+    {
+      "text": "¿cómo me llamo?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¿cómo te llamas?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¿qué hora es ahora?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¿qué puedes hacer?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¿qué tiempo hace hoy?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "adios",
+      "intent": "Despedida",
+      "entities": []
+    },
+    {
+      "text": "buen día",
+      "intent": "Bienvenido",
+      "entities": []
+    },
+    {
+      "text": "buenas noches",
+      "intent": "Bienvenido",
+      "entities": []
+    },
+    {
+      "text": "buenas tardes",
+      "intent": "Bienvenido",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "Despedida",
+      "entities": []
+    },
+    {
+      "text": "cancelar",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "chau",
+      "intent": "Despedida",
+      "entities": []
+    },
+    {
+      "text": "crear reserva",
+      "intent": "CrearReserva",
+      "entities": []
+    },
+    {
+      "text": "el cuerpo es un momento.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "el hombre más pobre del mundo sólo tiene dinero.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hasta mañana",
+      "intent": "Despedida",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Bienvenido",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "Bienvenido",
+      "entities": []
+    },
+    {
+      "text": "hola, como andas?",
+      "intent": "Bienvenido",
+      "entities": []
+    },
+    {
+      "text": "hola, mundo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "la sal no sala.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "me gusta la pizza.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nos vemos mañana",
+      "intent": "Despedida",
+      "entities": []
+    },
+    {
+      "text": "quiero armar una reunión virtual",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero armar una reunión virtual en webex",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero hacer una reserva",
+      "intent": "CrearReserva",
+      "entities": []
+    },
+    {
+      "text": "quiero organizar una reunión en teams",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero organizar una reunión virtual",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero organizar una reunión virtual en webex",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero preparar una reunión en teams",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero preparar una reunión virtual",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero reservar la sala webex",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "quiero reservar mañana",
+      "intent": "CrearReserva",
+      "entities": []
+    },
+    {
+      "text": "quiero reservar una sala virtual",
+      "intent": "CrearReservaVirtual",
+      "entities": []
+    },
+    {
+      "text": "tengo un perro.",
+      "intent": "None",
+      "entities": []
+    }
+  ],
+  "versionId": "1.0",
+  "name": "LogicalisWebexSample",
+  "desc": "",
+  "culture": "es-es",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
